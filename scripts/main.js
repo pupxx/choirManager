@@ -19,7 +19,7 @@ $('#director').on('click', function(){
     <div class="row">
       <div class="col-lg-10 col-lg-offset-2">
         <h4>Jean Barber</h4>
-        <h6>email: ejeanbarber@gmail.com</h6>
+        <h6>Email: <a>ejeanbarber@gmail.com</a></h6>
         <h6>Phone: 705-435-7974</h6>
       </div>
     </div>`);
