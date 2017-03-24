@@ -1,4 +1,7 @@
 
+body{
+  padding-top: 0;
+}
 #mainHeader{
   margin-bottom: 0;
 }
@@ -8,6 +11,13 @@
 
 #addressWrapper{
   margin-left: 5%;
+  margin-top: 40px;
+}
+h4.address{
+  font-weight: 800;
+}
+.address{
+  font-size: 1.2rem;
 }
 
 .navbar,
@@ -29,9 +39,6 @@
   color: #fff;
 }
 
-h4.address{
-  font-weight: 800;
-}
 
 .bold{
   font-weight: 800;
@@ -68,6 +75,10 @@ a:hover{
 #quote,
 #reference{
   font-family: 'Tangerine', cursive;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 700;
+}
+#reference{
+  font-weight: 400;
+  font-size: 1.7rem;
 }
