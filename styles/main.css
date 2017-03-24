@@ -1,0 +1,73 @@
+
+#mainHeader{
+  margin-bottom: 0;
+}
+#addressWrapper .address{
+  margin: 3px;
+}
+
+#addressWrapper{
+  margin-left: 5%;
+}
+
+.navbar,
+.navbar-fefault,
+.navbar-inverse,
+.main-nav{
+    background: #0754B1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#85B6F1, #0754B1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#85B6F1, #0754B1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#85B6F1, #0754B1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#85B6F1, #0754B1); /* Standard syntax */
+}
+
+.navbar-inverse, .main-nav, .navbar-inverse {
+  border-color: #85B6F1;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #fff;
+}
+
+h4.address{
+  font-weight: 800;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.panel-primary>.panel-heading{
+  background-color: #599BEB;
+  border-color: #599BEB;
+}
+
+.panel-heading{
+  padding: 5px 15px;
+}
+
+.panel-heading h4{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.announcements{
+  min-height: 150px;
+}
+
+#choirLeadership{
+  /*background-color: #85B6F1;*/
+  border: 1px solid #85B6F1;
+  border-radius: 10px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+#quote,
+#reference{
+  font-family: 'Tangerine', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
