@@ -24,3 +24,27 @@ $('#director').on('click', function(){
       </div>
     </div>`);
 });
+
+$('#chairman').on('click', function(){
+  $('#leadershipDetailsWrapper').children().remove();
+  $('#leadershipDetailsWrapper').append(`
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-2">
+        <h4>Carol Smith</h4>
+        <h6>Email: <a>carolrdsmith@gmail.com</a></h6>
+        <h6>Phone: 705-424-9452</h6>
+      </div>
+    </div>`);
+});
+
+$('#president').on('click', function(){
+  $('#leadershipDetailsWrapper').children().remove();
+  $('#leadershipDetailsWrapper').append(`
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-2">
+        <h4>Carol Smith</h4>
+        <h6>Email: <a>carolrdsmith@gmail.com</a></h6>
+        <h6>Phone: 705-424-9452</h6>
+      </div>
+    </div>`);
+});
