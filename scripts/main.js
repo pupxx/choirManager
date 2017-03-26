@@ -7,7 +7,7 @@ function appendDetails (idOrClassStr, WrapperStr, name, email, phone){
     $(WrapperStr).children().remove();
     $(WrapperStr).append(`
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-2">
+        <div class="col-lg-10 details">
           <h4>${name}</h4>
           <h6>Email: <a>${email}</a></h6>
           <h6>Phone: ${phone}</h6>
@@ -36,6 +36,4 @@ appendQuote (quotes);
 
 appendDetails ('#director', '#leadershipDetailsWrapper', 'Jean Barber', 'ejeanbarber@gmail.com', '705-435-7974');
 
-appendDetails ('#chairman', '#leadershipDetailsWrapper', 'Carol Smith', 'carolrdsmith@gmail.com', '705-424-9452');
-
-appendDetails ('#accompanist', '#leadershipDetailsWrapper', 'Carol Smith', 'carolrdsmith@gmail.com', '705-424-9452');
+appendDetails ('#chairman , #accompanist', '#leadershipDetailsWrapper', 'Carol Smith', 'carolrdsmith@gmail.com', '705-424-9452');

@@ -68,6 +68,12 @@ h4.address{
   border-radius: 10px;
 }
 
+.details{
+  background-color: #e5e7eb;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
 a:hover{
   cursor: pointer;
 }
