@@ -10,7 +10,7 @@ body{
   min-height: 150px;
   background-image: url('../images/sunset.jpg');
   background-size: inherit;
-  background-position: 0px -900px;
+  background-position: 0px -1000px;
   /*background-repeat: no-repeat;*/
   margin: 0;
 }
@@ -21,7 +21,7 @@ body{
 
 #addressWrapper{
   margin-left: 5%;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 h4.address{
   font-weight: 800;
