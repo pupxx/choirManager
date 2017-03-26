@@ -101,31 +101,113 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-2">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <form id="addMember" class="form-horizontal hidden">
+          <div class="form-group form-group-sm">
+            <label for="firstName" class="col-sm-2 control-label">First Name</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="lastName" class="col-sm-2 control-label">Last Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="email" class="col-sm-2 control-label">Confirm Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="confirmEmail" placeholder="Confirm Email">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="address" class="col-sm-2 control-label">Address</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="address" placeholder="Address">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="city" class="col-sm-2 control-label">City</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="city" placeholder="City">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="province" class="col-sm-2 control-label">Province</label>
+            <div class="col-sm-4">
+              <select id="province" class="form-control">
+                <option value="" selected="selected">Select</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="YT">Yukon</option>
+              </select>
+            </div>
+            <label for="postalCode" class="col-sm-2 control-label">Postal Code</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="postalCode" placeholder="Postal Code">
+            </div>
+          </div>
+          <div class="form-group form-group-sm">
+            <label for="phone" class="col-sm-2 control-label">Phone</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="phone" placeholder="Phone">
             </div>
           </div>
           <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <div class="col-sm-6 col-lg-offset-2">
+              <label class="checkbox-inline">
+                <input type="checkbox" id="soprano" value="option1"> Soprano
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="alto" value="option2"> Alto
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="tenor" value="option3"> tenor
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="Bass" value="option3"> Bass
+              </label>
             </div>
           </div>
+          <div class="form-group form-group-sm">
+            <label for="wardBranch" class="col-sm-2 control-label">Ward/Branch</label>
+            <div class="col-sm-4">
+              <select id="wardBranch" class="form-control">
+                <option value="" selected="selected">Select</option>
+                <option value="AB">Aurora Branch</option>
+                <option value="BC">Barrie Ward</option>
+                <option value="MB">Barrie YSA</option>
+                <option value="NB">Georgian Bay Branch</option>
+                <option value="NL">Lake Simcoe Ward Labrador</option>
+                <option value="NS">Midland Branch</option>
+                <option value="ON">Newmarket Ward</option>
+                <option value="PE">Orangeville Ward</option>
+                <option value="QC">Orillia Branch</option>
+                <option value="SK">Owen Sound Ward</option>
+              </select>
+            </div>
+          </div>
+
+
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Remember me
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Sign in</button>
+              <button type="submit" class="btn btn-default">Add</button>
             </div>
           </div>
         </form>
@@ -134,7 +216,7 @@
       <div class="col-lg-3">
         <div class="row">
           <div class="col-lg-12 col-lg-offset-4">
-            <a href="#">Add Choir Member</a>
+            <a id="addChoirMember" href="#">Add Choir Member</a>
           </div>
         </div>
       </div>

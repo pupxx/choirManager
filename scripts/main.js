@@ -37,3 +37,7 @@ appendQuote (quotes);
 appendDetails ('#director', '#leadershipDetailsWrapper', 'Jean Barber', 'ejeanbarber@gmail.com', '705-435-7974');
 
 appendDetails ('#chairman , #accompanist', '#leadershipDetailsWrapper', 'Carol Smith', 'carolrdsmith@gmail.com', '705-424-9452');
+
+$('#addChoirMember').on('click', function(){
+  $('#addMember').removeClass('hidden');
+})
