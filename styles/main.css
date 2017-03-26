@@ -5,6 +5,16 @@ body{
 #mainHeader{
   margin-bottom: 0;
 }
+
+.page-header{
+  min-height: 150px;
+  background-image: url('../images/sunset.jpg');
+  background-size: inherit;
+  background-position: 0px -900px;
+  /*background-repeat: no-repeat;*/
+  margin: 0;
+}
+
 #addressWrapper .address{
   margin: 3px;
 }
